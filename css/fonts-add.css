@@ -1,0 +1,24 @@
+@font-face {
+   font-family: MontB; /* Имя шрифта */
+   src: url(../fonts/Mont-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+   font-family: MontEL; /* Имя шрифта */
+   src: url(../fonts/Mont-ExtraLight.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+   font-family: MontL; /* Имя шрифта */
+   src: url(../fonts/Mont-Light.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+   font-family: MontR; /* Имя шрифта */
+   src: url(../fonts/Mont-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+   font-family: MontSB; /* Имя шрифта */
+   src: url(../fonts/Mont-SemiBold.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+   font-family: MisteryDi; /* Имя шрифта */
+   src: url(../fonts/MysteryDi.ttf); /* Путь к файлу со шрифтом */
+}
