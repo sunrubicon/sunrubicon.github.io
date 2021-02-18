@@ -433,8 +433,8 @@ body {
 .main-title {
    font-family: Roboto;
    font-weight: bold;
-   font-size: 35px;
-   line-height: 41px;
+   font-size: 40px;
+   line-height: 47px;
    color: #333;
    margin-bottom: 40px;
    text-transform: uppercase;
@@ -449,7 +449,7 @@ body {
    font-size: 22px;
    line-height: 28px;
    color: #333333;
-   max-width: 792px;
+   max-width: 703px;
    margin-bottom: 40px;
 }
 

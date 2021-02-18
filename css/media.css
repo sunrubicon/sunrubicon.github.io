@@ -8,12 +8,54 @@
    }  
    .footer__container {
       max-width: 1600px;
-      
+   }    
 }
 
 @media (max-width: 1400px) {
    .s4__item {
       margin: 0 auto;
+   }
+   .footer__container {
+      max-width: 1300px;    
+   }
+}
+
+@media (max-width: 1354px) {
+   /* .s1 {
+      padding-top: 20px;
+   } */
+   /* .s1__subtitle {
+      max-width: 754px;
+   } */
+
+   /* .s7 {
+      background-size: 35%;
+   } */
+
+   /* .s8__swiper-button-next,
+   .s8__swiper-button-prev {
+      width: 70px;
+      height: 70px;
+   } */
+
+   /* .swiper-button-next {
+      right: -108px;
+   }
+
+   .swiper-button-prev {
+      left: -108px;
+   } */
+
+   /* .s9__image>img {
+      max-width: 90%;
+   } */
+
+   /* .s9__form {
+      transform: translateY(0);
+   } */
+
+   .footer__container {
+      max-width: 1254px;    
    }
 }
 
@@ -25,102 +67,78 @@
    .menu__item {
       margin-right: 32px;
    }
+   .footer__container {
+      max-width: 1244px;    
+   }
 }
+
+/* @media(max-width: 1310px){
+   .s2__wrap {
+      background-size: 30%;
+   }
+} */
+
 
 @media (max-width: 1299px) {
    .s4__phone {
       position: absolute;
-      top: 230px;
-      right: 50%;
+      /* top: 230px; */
+      top: 35%;
+      right: 48.5%;
       transform: translate(50%, 0);
    }
 
    .s4__phone>img {
-      max-width: 154px;
-      width: 100%;
+      /* max-width: 154px; */
+      width: 90%;
    }
 
    .s4__title {
-      margin-bottom: 392px;
+      margin-bottom: 140px;
    }
 
    .s4__col {
-      min-height: 800px;
+      min-height: 580px;
    }
 
-   .s4__phone::after {
+   /* .s4__phone::after {
       display: none;
-   }
+   } */
 
    .s4__phone::before {
-      transform: rotate(0deg);
-      top: -35px;
-      font-size: 35px;
-      line-height: 35px;
-      right: 50%;
-      transform: translateX(50%);
+      transform: rotate(-10.64deg);
+      top: -90px;
+      font-size: 40px;
+      line-height: 40px;
+      right: -30px;
+      /* transform: translateX(50%); */
+   }
+   .footer__container {
+      max-width: 1199px;    
    }
 }
 
-
-@media (max-width: 1354px) {
-   .s1 {
-      padding-top: 20px;
-   }
-
-   .s7 {
-      background-size: 35%;
-   }
-
-   .s8__swiper-button-next,
-   .s8__swiper-button-prev {
-      width: 70px;
-      height: 70px;
-   }
-
-   .swiper-button-next {
-      right: -108px;
-   }
-
-   .swiper-button-prev {
-      left: -108px;
-   }
-
-   .s9__image>img {
-      max-width: 90%;
-   }
-
-   .s9__form {
-      transform: translateY(0);
-   }
-   .s1__subtitle {
-      max-width: 754px;
-   }
-}
-
-@media(max-width: 1310px){
-   .s2__wrap {
-      background-size: 30%;
-   }
-}
 @media (max-width: 1250px) {
-   .menu__burger {
+   /* .menu__burger {
       display: block;
    }
-
    .menu,
    .phone,
    .header__button {
       display: none;
-   }
-
-   .header__logo>img {
+   } */
+   /* .header__logo>img {
       max-width: 164px;
-   }
-
-   .call-icon {
+   } */
+   /* .call-icon {
       display: block;
       padding-right: 68px;
+   } */
+   .header__button{
+      padding: 15px 20px;
+   }
+   .header__contact {
+      margin-right: 0px;
    }
 
    .s1 {
@@ -134,26 +152,63 @@
    .header {
       height: 93px;
    }
+   .s1__container {
+      padding: 0 0 0 40px;
+   }
 
    .s1__subtitle {
       max-width: 500px;
    }
 
+   .step {
+      padding-left: 45px;
+   }
    .step2 {
-      margin-left: 20px;
+      margin-left: 40px;
    }
 
-   .header__logo {
+   .special {
+      bottom: -10px;
+   }
+
+   /* .header__logo {
       margin: 0;
-   }
-
-   .swiper-button-prev,
+   } */
+   /* .swiper-button-prev,
    .swiper-button-next {
       display: none;
+   } */
+
+   .footer__container {
+      max-width: 1150px;    
    }
 
 }
 @media(max-width: 1100px){
+   /* .menu__burger {
+      display: block;
+   }
+
+   .menu,
+   .phone,
+   .header__button {
+      display: none;
+   }
+   .header__logo>img {
+      max-width: 164px;
+   }
+   .call-icon {
+      display: block;
+      padding-right: 68px;
+   } */
+
+   .s1 {
+      background-image: url(../images/s1-bg-smalll.jpg);
+      min-width: 1100px;
+      /* background-size: auto 100%; */
+
+   }
+
    .s2__wrap {
       padding-top: 480px;
       background-repeat: no-repeat;
@@ -170,6 +225,10 @@
    .image__sell>img{
       height: 70%;
       width: 70%;
+   }
+
+   .footer__container {
+      max-width: 1000px;    
    }
 }
 @media (max-width: 1008px) {
