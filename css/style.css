@@ -719,12 +719,10 @@ body {
 ._left {
    margin-right: auto;
 }
-
 .s4__item {
    max-width: 395px;
    text-align: center;
 }
-
 .s4__item-title {
    font-family: Roboto;
    font-weight: bold;
@@ -734,7 +732,6 @@ body {
    text-transform: uppercase;
    color: #0065B1;
 }
-
 .s4__item-text {
    font-family: MontR;
    font-size: 18px;
@@ -743,11 +740,10 @@ body {
    color: #000000;
 }
 
-
 .s4__phone {
    position: absolute;
-   top: 60%;
-   right: 50%;
+   top: 40%;
+   right: 43%;
    transform: translate(50%, -50%);
 }
 
@@ -772,6 +768,39 @@ body {
    right: 38px;
    z-index: -1;
 }
+
+/* анимация */
+.s4__phone{
+   animation-iteration-count: infinite;
+   animation-duration: 1.5s;
+   animation-name: c;
+}
+@keyframes c {
+  0%, 50%, 100% {
+     transform: rotate(0deg);
+     -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     -ms-transform: rotate(0deg);
+   }
+   10%, 30% {
+     transform: rotate(-10deg);
+     -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+     -o-transform: rotate(-10deg);
+     -ms-transform: rotate(-10deg);
+   }
+   20%, 40% {
+     transform: rotate(10deg);
+     -webkit-transform: rotate(10deg);
+     -moz-transform: rotate(10deg);
+     -o-transform: rotate(10deg);
+     -ms-transform: rotate(10deg);
+   } 
+}
+/* анимация */
+
+
 /* .s5info{
    padding: 20px 0;
 }
