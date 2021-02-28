@@ -596,13 +596,14 @@ body {
 .s3 {
    width: 100%;
    position: relative;
-   background-image: url(../images/s3-bg.jpg);
+   background-image: url(../images/bg_mask1.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
    position: relative;
    overflow: hidden;
    padding: 0 52px;
+   background-attachment: fixed;
 }
 
 ._lay {
@@ -882,8 +883,12 @@ body {
 
 .s6 {
    position: relative;
-   background-image: url(../images/Mask\ Group.jpg);
+   background-image: url(../images/bg_mask2.jpg);
    padding: 90px 20px 147px 20px;
+   /* background-position: center; */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 .s6__title {
@@ -1121,6 +1126,7 @@ body {
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 .s8__slider-com{
    max-width: 900px;
