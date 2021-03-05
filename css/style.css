@@ -968,7 +968,7 @@ body {
    background-color: transparent;
    border-radius: 50%;
    border: 1px solid #FFFFFF;
-   background-image: url(../images/sw-p-prev.svg);
+   background-image: url(../images//sw-p.svg);
    background-position: center;
    background-size: auto;
    background-repeat: no-repeat;
@@ -979,7 +979,7 @@ body {
 
 .swiper-button-prev:hover {
    background-color: #fff;
-   background-image: url(../images/Vector\ 1\ \(active\).png);
+   background-image: url(../images/sw-p-active.svg);
 }
 
 .s6__slider-wins {
@@ -995,7 +995,7 @@ body {
    background-color: transparent;
    border-radius: 50%;
    border: 1px solid #FFFFFF;
-   background-image: url(../images/sw-p-prev.svg);
+   background-image: url(../images/sw-p.svg);
    transform: scale(-1, 1);
    background-position: center;
    background-size: auto;
@@ -1007,7 +1007,7 @@ body {
 
 .swiper-button-next:hover {
    background-color: #fff;
-   background-image: url(../images/Vector\ 1\ \(active\).png);
+   background-image: url(../images/sw-p-active.svg);
    transform: scale(-1, 1);
 }
 
