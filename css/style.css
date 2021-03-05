@@ -974,6 +974,7 @@ body {
    background-repeat: no-repeat;
    z-index: 11;
    transition: all .2s ease;
+   outline: none;
 }
 
 .swiper-button-prev:hover {
@@ -1001,6 +1002,7 @@ body {
    background-repeat: no-repeat;
    z-index: 11;
    transition: all .2s ease;
+   outline: none;
 }
 
 .swiper-button-next:hover {
